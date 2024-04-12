@@ -8,5 +8,5 @@ sales:
       username: SuperUser
       password: SYSYS
       namespace: USER
-      schema: dbt
+      schema: hb1
   target: iris
