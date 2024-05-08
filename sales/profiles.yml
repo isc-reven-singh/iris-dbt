@@ -3,10 +3,10 @@ sales:
     iris:
       type: iris
       threads: 1
-      hostname: iris
+      hostname: localhost
       port: 1972
       username: SuperUser
       password: SYSYS
       namespace: USER
-      schema: dbt
+      schema: hb1
   target: iris
