@@ -6,7 +6,7 @@ sales:
       hostname: localhost
       port: 1972
       username: SuperUser
-      password: SYSYS
+      password: SYS
       namespace: USER
-      schema: hb1
+      schema: dbt
   target: iris
