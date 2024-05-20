@@ -23,7 +23,7 @@ my_cosmos_dag = DbtDag(
     catchup=False,
     dag_id="dbt_sales_dag",
     default_args={"retries": 2},
-    dbt_args={
+    operator_args={
         "install_deps": True,
     },
 )
